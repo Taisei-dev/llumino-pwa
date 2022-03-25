@@ -6,7 +6,7 @@
   "scripts": {
     "dev-server": "http-server ./public",
     "dev-watch": "webpack --watch",
-    "build": "react-scripts build",
+    "build": "webpack",
     "lint": "eslint 'src/js/**/*'",
     "flow": "flow --show-all-errors",
     "test": "mocha --require babel-register 'src/js/**/*-test.js'"
@@ -32,7 +32,6 @@
     "raw-loader": "^0.5.1",
     "react": "^16.3.0",
     "react-dom": "^16.3.0",
-    "react-scripts": "5.0.0",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
     "redux": "^3.7.2",
